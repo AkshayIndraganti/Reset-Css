@@ -4,6 +4,8 @@ A CSS reset is a set of styles that are applied to all elements on a web page in
 
 A CSS reset typically includes a set of rules that remove or reset all the default styles applied to HTML elements by the browser. This includes removing margins, padding, and borders from elements, setting the font size and line height to a consistent value, and setting the background and text colors to transparent. The reset may also include setting a default font family and font size for the entire page.
 
+The goal of a CSS reset is to provide a consistent starting point for styling a website, so that designers and developers can build on top of a known baseline without having to worry about inconsistencies across browsers or devices. By removing the default styles applied by browsers, a CSS reset can help to avoid cross-browser compatibility issues and make it easier to create a cohesive, professional-looking design.
+
 ```css
 /* Box sizing border-box for all elements */
 *,
