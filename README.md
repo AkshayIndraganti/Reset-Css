@@ -52,6 +52,7 @@ button {
 /* This will set 1rem to be equal to 10px */
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 /* Remove default list styles */
@@ -119,7 +120,7 @@ hr {
 /* Reset font styles */
 body {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.5;
   font-weight: normal;
 }
