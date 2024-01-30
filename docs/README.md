@@ -49,6 +49,14 @@ html {
     vertical-align: baseline;
 }
 
+/* Reset font styles */
+body {
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
 /* Remove default list styles */
 ul,
 ol {
@@ -110,14 +118,6 @@ hr {
     box-sizing: content-box;
     height: 0;
     overflow: visible;
-}
-
-/* Reset font styles */
-body {
-    font-family: var(--font-family);
-    font-size: 1.6rem;
-    line-height: 1.5;
-    font-weight: normal;
 }
 
 /* Reset form field appearance */
