@@ -7,9 +7,18 @@ A CSS reset establishes a consistent foundation for styling web pages by neutral
  * Custom CSS Reset - Developed for optimal cross-browser consistency and minimal default styling 
 */
 
+/* Define custom variables in :root for global access */
+:root {
+  /* Fonts */
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+  --font-size: 62.5%;
+}
+
 /* Box sizing and inheritance */
 html {
-  font-size: 62.5%;
+  font-size: var(--font-size);
   line-height: 1.5;
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -92,7 +101,7 @@ hr {
 
 /* Reset font styles */
 body {
-  font-family: sans-serif;
+  font-family: var(--font-family);
   font-size: 1.6rem;
   line-height: 1.5;
   font-weight: normal;
