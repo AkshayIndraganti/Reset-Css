@@ -14,7 +14,12 @@
         Ubuntu,
         Cantarell,
         "Helvetica Neue",
-        sans-serif;
+        sans-serif,
+        "Noto Sans",
+        Helvetica,
+        Arial,
+        "Apple Color Emoji",
+        "Segoe UI Emoji";
 
     --font-size: 62.5%
 }
